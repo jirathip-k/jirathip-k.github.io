@@ -1,0 +1,68 @@
+{{ define "main" }}
+<div class="container mx-auto my-4">
+  <div class="text-center h-screen flex flex-col items-center justify-center">
+    <h1 class="text-2xl text-slate-500 font-bold mb-4">Hello, my name is</h1>
+    <h1 class="text-4xl text-indigo-800 font-bold mb-4 hover:text-indigo-900">
+      Jirathip
+    </h1>
+
+    <h1 class="text-2xl text-slate-500 font-bold mb-4">
+      Data Science Graduate
+    </h1>
+    <span class="mb-4 text-slate-500"
+      ><i class="fa-solid fa-location-dot fa-xl mr-2"></i>Bangkok,
+      Thailand</span
+    >
+    <div class="p-4 my-4 rounded bg-slate-500 hover:bg-slate-600 mx-4">
+      <p class="text-base text-slate-50 sm:text-base">
+        I'm looking to transition to the world of data science with a Master's
+        degree and a passion for machine learning and artificial intelligence
+        with background in financial services. Beyond data science, I'm also an
+        avid web developer, finding the process of building user interfaces a
+        powerful way to hone my communication skills and translate complex ideas
+        into easily understood visuals. In my free time, you'll find me trying
+        to conquer bouldering walls. This pursuit has taught me the value of
+        patience, strategic thinking, and mental resilience, qualities I believe
+        are crucial for any data scientist who thrives on navigating complex
+        problems.
+      </p>
+    </div>
+    <a
+      href="/resume.pdf"
+      class="bg-slate-600 text-white text-2xl px-4 py-2 rounded-md font-semibold mt-4 hover:bg-slate-800"
+    >
+      Resume
+    </a>
+    <div class="container mx-auto flex items-center justify-center my-4">
+      <p>
+        <!-- LINE icon link -->
+        <a href="mailto:jirathip.ku@gmail.com" target="_blank">
+          <i
+            class="fa-solid fa-envelope fa-xl mx-2 text-slate-600 hover:text-slate-800"
+          ></i>
+        </a>
+
+        <!-- LinkedIn icon link -->
+        <a
+          href="http://linkedin.com/in/jirathip-kunkanjanathorn"
+          target="_blank"
+        >
+          <i
+            class="fa-brands fa-linkedin fa-xl mx-2 text-slate-600 hover:text-slate-800"
+          ></i>
+        </a>
+
+        <!-- Facebook icon link -->
+        <a href="https://www.github.com/jirathip-k" target="_blank">
+          <i
+            class="fa-brands fa-github fa-xl mx-2 text-slate-600 hover:text-slate-800"
+          ></i>
+        </a>
+      </p>
+    </div>
+  </div>
+</div>
+<div class="container mx-auto flex items-center justify-center h-screen">
+  {{ partial "content.html" . }}
+</div>
+{{ end }}

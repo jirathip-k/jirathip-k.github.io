@@ -1,0 +1,13 @@
+<div class="container w-full items-start p-4">
+  <h1 class="text-slate-500 text-5xl">About me</h1>
+  {{ range $key, $value := .Site.Taxonomies.contents }} {{ range $value.Pages }}
+  <div
+    class="bg-slate-700 hover:bg-slate-800 my-4 flex-grow items-center rounded"
+  >
+    <h2 class="flex-grow p-4 text-slate-50 text-3xl">{{ .Title }}</h2>
+    <div class="p-4 text-slate-300 content-container">
+      {{ .Content | safeHTML }}
+    </div>
+  </div>
+  {{ end }} {{ end }}
+</div>
