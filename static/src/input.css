@@ -7,3 +7,8 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
+
+.content-container ul {
+  list-style-type: disc;
+  margin-inline: 1rem;
+}

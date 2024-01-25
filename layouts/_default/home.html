@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div class="container mx-auto my-4">
-  <div class="text-center h-screen flex flex-col items-center justify-center">
+  <div class="text-center flex flex-col items-center justify-center h-screen">
     <h1 class="text-2xl text-slate-500 font-bold mb-4">Hello, my name is</h1>
     <h1 class="text-4xl text-indigo-800 font-bold mb-4 hover:text-indigo-900">
       Jirathip
@@ -62,7 +62,5 @@
     </div>
   </div>
 </div>
-<div class="container mx-auto flex items-center justify-center h-screen">
-  {{ partial "content.html" . }}
-</div>
+<div class="container mx-auto">{{ partial "content.html" . }}</div>
 {{ end }}
