@@ -1,0 +1,76 @@
+{{ define "resume" }}
+<body
+  class="text-sm flex min-h-screen flex-col items-center justify-center gap-2 bg-slate-600 print:min-h-0"
+>
+  <main
+    class="relative m-4 h-[297mm] w-[210mm] overflow-hidden rounded-md bg-white px-8 py-4 shadow-lg print:m-0 print:h-screen print:w-screen print:rounded-none print:shadow-none"
+  >
+    <div class="container mx-auto flex items-center justify-center">
+      <h1 class="text-2xl text-slate-800">Jirathip Kunkanjanathorn</h1>
+    </div>
+    <div class="container mx-auto flex items-center justify-center py-2">
+      <p class="text-xs text-teal-600">
+        <i class="fa-solid fa-map-marker-alt mx-1"></i>
+        <span>Bangkok</span>
+        <a href="tel:+66611466922" target="_blank">
+          <i
+            class="fa-solid fa-phone mx-1 text-slate-600 hover:text-slate-800"
+          ></i>
+          +66 61-146-6922
+        </a>
+
+        <a href="mailto:jirathip.ku@gmail.com" target="_blank">
+          <i
+            class="fa-solid fa-envelope fa-xl mx-1 text-slate-600 hover:text-slate-800"
+          ></i>
+          jirathip.ku@gmail.com
+        </a>
+
+        <a href="http://linkedin.com/in/jirathip-k" target="_blank">
+          <i
+            class="fa-brands fa-linkedin fa-xl mx-1 text-slate-600 hover:text-slate-800"
+          ></i>
+          jirathip-k
+        </a>
+
+        <a href="https://www.github.com/jirathip-k" target="_blank">
+          <i
+            class="fa-brands fa-github fa-xl mx-1 text-slate-600 hover:text-slate-800"
+          ></i>
+          jirathip-k
+        </a>
+        <a href="https://jirathip-k.github.io/" target="_blank">
+          <i
+            class="fa-solid fa-laptop fa-xl mx-1 text-slate-600 hover:text-slate-800"
+          ></i>
+
+          https://jirathip-k.github.io/
+        </a>
+      </p>
+    </div>
+    <div class="container items-start">
+      {{ range $key, $value := .Site.Taxonomies.contents }} {{ range
+      $value.Pages }}
+      <div class="flex-grow items-center rounded mb-2">
+        <div class="border-b border-b-teal-600 mb-2">
+          <h2 class="flex-grow text-slate-700 font-bold text-base">
+            {{ .Title }}
+          </h2>
+        </div>
+        <div class="text-slate-600 content-container text-xs">
+          {{ .Content | safeHTML }}
+        </div>
+      </div>
+      {{ end }} {{ end }}
+    </div>
+  </main>
+  <div class="print:hidden">
+    <a
+      href="/jirathip-kunkanjanathorn-resume.pdf"
+      class="bg-slate-700 text-white text-2xl px-4 py-2 rounded-md font-semibold mt-4 hover:bg-slate-800"
+    >
+      Download
+    </a>
+  </div>
+</body>
+{{ end }}

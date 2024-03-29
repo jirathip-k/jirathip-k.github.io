@@ -3,13 +3,18 @@ title: "Education"
 contents: "01"
 ---
 
-# Master of Data Science – awarded with distinction {.text-2xl .font-bold}
+<div class="flex justify-between">
+    <span><b>Master of Data Science – awarded with distinction</b></span>   
+    <span>Feb 2022 – Dec 2023</span>
+</div>
 
-- _Feb 2022 – Dec 2023_
+Weighted Average Mark (WAM) – 84.125/100
 
-- Monash University – Melbourne, VIC, Australia
+_Monash University – Melbourne, VIC, Australia_
 
-# Bachelor of Business Administration – Finance {.text-2xl .font-bold}
+<div class="flex justify-between">
+    <span><b>Bachelor of Business Administration – Finance</b></span>
+    <span>Aug 2014 – Aug 2018</span>
+</div>
 
-- _Aug 2014 – Aug 2018_
-- Chulalongkorn University – Bangkok, Thailand
+_Chulalongkorn University – Bangkok, Thailand_

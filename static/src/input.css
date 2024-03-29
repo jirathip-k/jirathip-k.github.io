@@ -12,3 +12,12 @@ body {
   list-style-type: disc;
   margin-inline: 1rem;
 }
+.link {
+  color: blue;
+}
+
+img[src*="#logo"] {
+  width: 15px;
+  height: 15px;
+  margin-inline: 0.25rem;
+}
