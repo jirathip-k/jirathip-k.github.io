@@ -4,36 +4,69 @@ contents: "03"
 ---
 
 <div class="flex justify-between">
-    <span><b>Portfolio Manager</b></span>   
+    <span>
+        <b>Data Scientist - Intern</b> 
+        <i class="fa-solid fa-map-marker-alt mx-1"></i>
+        <i>Data Cafe, Bangkok, Thailand</i>
+    </span>   
+    <span>March 2024 - Present</span>
+</div>
+
+- Conducted comprehensive analysis of various models available in the market to evaluate their performance on tabular data.
+- Engineered prompts and optimized Langchain functionalities, incorporating features such as self-correction mechanisms and data enrichment to bolster the effectiveness of Language Model-based systems (LLMs).
+
+<div class="flex justify-between mt-2">
+    <span>
+        <b>Software Engineer - Part time</b> 
+        <i class="fa-solid fa-map-marker-alt mx-1"></i>
+        <i>Synergy Services, Bangkok, Thailand</i>
+    </span>   
+    <span>Jan 2024 – Present</span>
+</div>
+
+- Gathered requirements from company executives utilised Hugo to built and develop <a class="text-teal-600" target="_blank" href="synergyservices.co.th">synergyservices.co.th</a>
+- Coordinated with the marketing manager designing the UX/UI for the website and optimised SEO
+- Currently developing the backend phase using Go and HTMX to enhance user experience
+- Provided expertise and guidance in critical situations such as domain server downtimes, communicating with the server service providers to resolve issues
+
+<div class="flex justify-between mt-2">
+    <span>
+        <b>Portfolio Manager</b> 
+        <i class="fa-solid fa-map-marker-alt mx-1"></i>
+        <i>MFC Asset Management, Bangkok, Thailand</i>
+    </span>   
     <span>Dec 2020 – Feb 2022</span>
 </div>
 
-_MFC Asset Management, Bangkok, Thailand_
-
 - Managed mutual and provident funds in foreign equity markets with fund size of $1M to $200M including developed market fund, Asian fund, Asean fund, and thematic funds to achieve higher than the market benchmark
-
-- Selected and invested in stocks, ETFs, and mutual funds regarding each fund investment policy to enhance risk adjusted return
+- Invested in stocks, ETFs, and mutual funds regarding each fund investment policy to enhance risk adjusted return
 - Initiated ideas of and sourced new investments for portfolios through combination of market regime and stocks by visualising data and analyse relevant metrics
-- Established portfolio management and security analysis best practices while overseeing company and legal standards
+- Established portfolio management and security analysis best practices overseeing company and legal standards
 - Communicated with investment committee, advisory and marketing division monthly regarding current situation, future plan and opportunities
 - Achieved top ten funds performance consistently in developed market, Asian, and Asean funds
 
-<div class="flex justify-between">
-    <span><b>Assistant Portfolio Manager</b></span>   
+<div class="flex justify-between mt-2">
+    <span>
+        <b>Assistant Portfolio Manager</b> 
+        <i class="fa-solid fa-map-marker-alt mx-1"></i>
+        <i>MFC Asset Management, Bangkok, Thailand</i>
+    </span>
     <span>Dec 2018 – Dec 2020</span>
 </div>
-
-_MFC Asset Management, Bangkok, Thailand_
 
 - Researched and forecasted companies outlook on daily basis to assess credit risk and purpose for investment opportunities for domestic fixed income securities and global equities
 - Built external relation with potential and current investment opportunities and assessed business direction from high level executives
 
-<div class="flex justify-between">
-    <span><b>Investment Intern</b></span>   
+<div class="flex justify-between mt-2">
+    <span>
+        <b>Investment Analyst - Intern</b> 
+        <i class="fa-solid fa-map-marker-alt mx-1"></i>
+        <i>FWD Life Insurance, Bangkok, Thailand</i>
+    </span>
     <span>May 2017 – Aug 2017</span>
 </div>
 
 _FWD Life Insurance, Bangkok, Thailand_
 
-- Forecasted bond issuer’s financial outlook and analysed credit risk by incorporating economic outlook and company plans compared to others in the industry
+- Forecasted company’s financial outlook and credit risk by incorporating economic outlook and company plans
 - Collaborated with corporate actuarial division to plan cash flow for asset liability matching

@@ -21,17 +21,11 @@ contents: "02"
 | ---------------------------------------------------- | -------------- | ---------------------------------------------- | --------- | ----------------------------------------------- | ------------ | ------------------------------------------- | --------- | --- | --- | --- | --- | --- |
 | ![Scikit-Learn](/logo/devicon--scikitlearn.svg#logo) | Scikit-Learn ┃ | ![pytorch](/logo/logos--pytorch-icon.svg#logo) | PyTorch ┃ | ![Tensorflow](/logo/logos--tensorflow.svg#logo) | Tensorflow ┃ | ![LangChain](/logo/LangChain_logo.svg#logo) | LangChain |     |     |     |     |     |
 
-# Web Development Frameworks {.font-bold}
+# Web Development Frameworks & Design {.font-bold}
 
 |     |           |     |                |     |        |     |           |
-| --- | --------- | --- | -------------- | --- | ------ | --- | --------- | --- | ---- |
-|     | ReactJS ┃ |     | React Native ┃ |     | Expo ┃ |     | FastAPI ┃ |     | Hugo |
-
-# Web Design & APIs {.font-bold}
-
-|     |                   |     |          |     |     |     |     |
-| --- | ----------------- | --- | -------- | --- | --- | --- | --- |
-|     | API Integration ┃ |     | REST API |     |     |     |     |
+| --- | --------- | --- | -------------- | --- | ------ | --- | --------- | --- | ------ | --- | ----------------- | -------- | --- |
+|     | ReactJS ┃ |     | React Native ┃ |     | Expo ┃ |     | FastAPI ┃ |     | Hugo ┃ |     | API Integration ┃ | REST API |     |
 
 # Development Tools & Infrastructure {.font-bold}
 
