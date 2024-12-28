@@ -1,6 +1,6 @@
 ---
 title: "Skills"
-contents: "02"
+contents: "03"
 ---
 
 # Programming Languages {.font-bold}
@@ -24,11 +24,11 @@ contents: "02"
 # Web Development Frameworks & Design {.font-bold}
 
 |     |           |     |                |     |        |     |           |
-| --- | --------- | --- | -------------- | --- | ------ | --- | --------- | --- | ------ | --- | ----------------- | -------- | --- |
-|     | ReactJS ┃ |     | React Native ┃ |     | Expo ┃ |     | FastAPI ┃ |     | Hugo ┃ |     | API Integration ┃ | REST API |     |
+| --- | --------- |  --- | ------ | --- | ----------------- | -------- | --- |
+|     | ReactJS ┃ |  FastAPI ┃ |     | Hugo ┃ |     | API Integration ┃ | REST API |     |
 
 # Development Tools & Infrastructure {.font-bold}
 
 |                                           |         |                                               |              |                                           |          |                                        |       |
-| ----------------------------------------- | ------- | --------------------------------------------- | ------------ | ----------------------------------------- | -------- | -------------------------------------- | ----- | -------------------------------------------- | -------- | ----------------------------------------------- | ------------ | --- | ---------- | ------------------------------------- | ----- | --- |
-| ![linux](/logo/logos--linux-tux.svg#logo) | Linux ┃ | ![archlinux](/logo/logos--archlinux.svg#logo) | Arch Linux ┃ | ![neovim](/logo/devicon--neovim.svg#logo) | Neovim ┃ | ![git](/logo/logos--git-icon.svg#logo) | Git ┃ | ![docker](/logo/logos--docker-icon.svg#logo) | Docker ┃ | ![PostgreSQL](/logo/logos--postgresql.svg#logo) | PostgreSQL ┃ |     | pgvector ┃ | ![redis](/logo/logos--redis.svg#logo) | Redis |     |
+| ----------------------------------------- | -------  | ----------------------------------------- | -------- | -------------------------------------- | ----- | -------------------------------------------- | -------- | ----------------------------------------------- | ----------- |
+| ![linux](/logo/logos--linux-tux.svg#logo) | Linux ┃  | ![neovim](/logo/devicon--neovim.svg#logo) | Neovim ┃ | ![git](/logo/logos--git-icon.svg#logo) | Git ┃ | ![docker](/logo/logos--docker-icon.svg#logo) | Docker ┃ | ![PostgreSQL](/logo/logos--postgresql.svg#logo) | PostgreSQL  |     

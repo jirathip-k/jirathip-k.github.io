@@ -1,6 +1,6 @@
 ---
 title: "Education"
-contents: "01"
+contents: "02"
 ---
 
 <div class="flex justify-between">
@@ -8,7 +8,7 @@ contents: "01"
     <span>Feb 2022 – Dec 2023</span>
 </div>
 
-Weighted Average Mark (WAM) – 84.125/100
+<!-- Weighted Average Mark (WAM) – 84.125/100 -->
 
 _Monash University – Melbourne, VIC, Australia_
 
