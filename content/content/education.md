@@ -4,7 +4,7 @@ contents: "02"
 ---
 
 <div class="flex justify-between">
-    <span><b>Master of Data Science – awarded with distinction</b></span>   
+    <span><b>Master of Data Science</b></span>   
     <span>Feb 2022 – Dec 2023</span>
 </div>
 
